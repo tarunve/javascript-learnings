@@ -1,0 +1,24 @@
+{
+  "name": "002-javascript-async-promises",
+  "version": "1.0.0",
+  "description": "Source code for the JavaScript Promises and Async Programming",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "secondary": "cross-env PORT=3001 nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Tarun (tarun.verma151@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "json-server": "^0.15.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
