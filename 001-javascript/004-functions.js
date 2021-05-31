@@ -93,13 +93,13 @@ let message = {
     arrowFunction: () => console.log('Hi' + this.name) // undefined since this is not recignized
 }
 message.regularFunction();
-message.arrowFunction();
+//message.arrowFunction();
 
 // call method - we can use this method to bind any object to a function
-let person1 = {name : 'Tarun'};
-let person2 = {name : 'Deepak'};
-let sayHi = function(message){
-    console.log(message + ', ' + this.name);
+var person1 = {name : 'Tarun'};
+var person2 = {name : 'Deepak'};
+var sayHi = function(){
+    console.log("Hi " + this.name);
 }
 sayHi.call(person1);
 sayHi.call(person2);
