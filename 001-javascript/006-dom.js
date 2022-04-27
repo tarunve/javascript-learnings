@@ -26,8 +26,8 @@ button.addEventListener('click', function(){
 });
 
 // example : on click of button we want to show/hide one panel
-const button = document.getElementsById('some-button');
-button.addEventListener('click', function(){
+const button1 = document.getElementsById('some-button');
+button1.addEventListener('click', function(){
     const review = document.getElementsById('review');
     if(review.classList.contains('d-none')){
         review.classList.remove('d-none');
